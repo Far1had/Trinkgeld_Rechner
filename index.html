@@ -26,25 +26,35 @@
 
                     <h4>Wie viele Menschen teilen sich die Rechnung?</h4>
                     <div class="iconflex">
-                        <img src="./assets/img/icons8-microsoft-people-48 1.png" alt="">
+                        <div>
+                             <img src="./assets/img/icons8-microsoft-people-48 1.png" alt="">
+                        </div>
+                       
                         <label for="input"></label>
                         <input type="number" id="input" value="">
                     </div>
-                </div>
+                    <div>
+                        
+                        <label for="service">
+                            <h4>Wählen Service qualität aus!</h4>
+                        </label>
+                    </div>
+                    <div class="selectflex">
+                        <img src="./assets/img/title01.svg" alt="">
+                        <select id="service" name="service">
+                            <option value="wieServ">Wie war der Service?</option>
+                            <option value="gutServ">OKAY</option>
+                            <option value="badServ">nicht Okay</option>
+                        </select>
+                    </div>
 
-                <div>
-                    <label for="fruit">Wählen Sie eine Frucht:</label>
-                    <select id="service" name="service">
-                        <option value="wieServ">Wie war der Service?</option>
-                        <option value="gutServ">OKAY</option>
-                        <option value="badServ">schlecht</option>
-                    </select>
                 </div>
+                <br>
                 <input type="submit" value="         Berechnen           ">
 
-                <h3>Das Trinkgeld ist: € <span id="result-Tg"></span></h3>
-                <h3>Die gesamtsumme beträgt: € <span id="resultTotal"></span></h3>
-                <h3>Der preis pro Person ist: € <span id="resulteinzeln"></span></h3>
+                <h3>Das Trinkgeld ist: € <span id="resultTg"></span></h3>
+                <h3>Die gesamtsumme beträgt: € <span id="resultTot"></span></h3>
+                <h3>Der preis pro Person ist: € <span id="resultPp"></span></h3>
         </section>
         <br><br>
         </form>
