@@ -26,6 +26,9 @@ p{
     display: flex;
 }
 
+input {
+  border-radius: 50px;
+}
 
 h1{
     display: flex;
