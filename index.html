@@ -41,10 +41,11 @@
                     </div>
                     <div class="selectflex">
                         <img src="./assets/img/title01.svg" alt="">
+                        <label for="service">Service?</label>
                         <select id="service" name="service">
-                            <option value="wieServ">Wie war der Service?</option>
-                            <option value="gutServ">OKAY</option>
-                            <option value="badServ">nicht Okay</option>
+                            <option value="wieServ" disabled selected>Bitte wählen</option>
+                            <option id="okay" value="gutServ">OKAY</option>
+                            <option id="nichtOkay" value="badServ">nicht Okay</option>
                         </select>
                     </div>
 
